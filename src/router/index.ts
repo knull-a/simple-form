@@ -5,22 +5,22 @@ const router = createRouter({
   routes: [
     {
       path: "/your-info",
-      name: "Your Info",
+      name: "Personal info",
       component: () => import("@/views/YourInfoView.vue")
     },
     {
       path: "/select-plan",
-      name: "Select Plan",
+      name: "Select your plan",
       component: () => import("@/views/SelectPlanView.vue")
     },
     {
       path: "/add-ons",
-      name: "Add Ons",
+      name: "Pick add-ons",
       component: () => import("@/views/AddOnsView.vue")
     },
     {
       path: "/summary",
-      name: "Summary",
+      name: "Finishing up",
       component: () => import("@/views/SummaryView.vue")
     }
   ]
