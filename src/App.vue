@@ -1,12 +1,12 @@
 
 <template>
   <div class="bg-main text-primary font h-screen flex justify-center items-center bg-bg">
-    <div class="shadow-lg h-[600px] w-[900px] bg-white flex flex-row rounded-xl">
+    <div class="relative shadow-lg h-[600px] w-[900px] bg-white flex flex-row rounded-xl">
       <nav class="bg-navbar bg-cover bg-no-repeat m-5 p-12 pr-24 rounded-lg text-white">
         <NavbarMain />
       </nav>
       <main class="flex flex-col ml-10 mt-14 pr-10 max-w-lg break-words">
-        <MainInfo />
+        <MainInfo class="h-[300px]" />
       </main>
     </div>
   </div>
